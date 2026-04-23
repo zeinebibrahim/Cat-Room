@@ -1,37 +1,46 @@
 fileFormatVersion: 2
-guid: 814583653218552489bc25ce187e33df
+guid: aa54452f9f83ce04a9ba107196450e51
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1434499679988751145
-    second: GoldenRetriver_0
+      213: 7460046300004610927
+    second: Jump_0
   - first:
-      213: -8913565657545568405
-    second: GoldenRetriver_1
+      213: 7034338576483803127
+    second: Jump_1
   - first:
-      213: -4059337005736962738
-    second: GoldenRetriver_2
+      213: 6054277451648750542
+    second: Jump_2
   - first:
-      213: -2772389786410074621
-    second: GoldenRetriver_3
+      213: 6937500446539429301
+    second: Jump_3
   - first:
-      213: 8811968212510479797
-    second: GoldenRetriver_4
+      213: 3580086529375993838
+    second: Jump_4
   - first:
-      213: 1709227667991776238
-    second: GoldenRetriver_5
+      213: 3630178267427638470
+    second: Jump_5
   - first:
-      213: 3874002620842220442
-    second: GoldenRetriver_6
+      213: 3900142949445631465
+    second: Jump_6
   - first:
-      213: 4502443388295158002
-    second: GoldenRetriver_7
+      213: 3967418731061993063
+    second: Jump_7
   - first:
-      213: 1620036001838557687
-    second: GoldenRetriver_8
+      213: 3330681223243198311
+    second: Jump_8
   - first:
-      213: 5143797844719560011
-    second: GoldenRetriver_9
+      213: -5679318689324892672
+    second: Jump_9
+  - first:
+      213: 8986021004954451436
+    second: Jump_10
+  - first:
+      213: -7810803537696417755
+    second: Jump_11
+  - first:
+      213: 7239986427860625178
+    second: Jump_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +87,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -153,221 +162,287 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GoldenRetriver_0
+      name: Jump_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 3
         y: 0
-        width: 64
-        height: 64
+        width: 27
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92b1420dbdd58e310800000000000000
-      internalID: 1434499679988751145
+      spriteID: f63fdb7b598678760800000000000000
+      internalID: 7460046300004610927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_1
+      name: Jump_1
       rect:
         serializedVersion: 2
-        x: 64
+        x: 35
         y: 0
-        width: 64
-        height: 64
+        width: 28
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6f00e3b247ac4480800000000000000
-      internalID: -8913565657545568405
+      spriteID: 7ffd4217aadfe9160800000000000000
+      internalID: 7034338576483803127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_2
+      name: Jump_2
       rect:
         serializedVersion: 2
-        x: 128
+        x: 67
         y: 0
-        width: 64
-        height: 64
+        width: 28
+        height: 22
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e45537520865aa7c0800000000000000
-      internalID: -4059337005736962738
+      spriteID: ec35e2de34d150450800000000000000
+      internalID: 6054277451648750542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_3
+      name: Jump_3
       rect:
         serializedVersion: 2
-        x: 192
+        x: 102
         y: 0
-        width: 64
-        height: 64
+        width: 24
+        height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30e3b129d2e7689d0800000000000000
-      internalID: -2772389786410074621
+      spriteID: 5b5b81156e3f64060800000000000000
+      internalID: 6937500446539429301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_4
+      name: Jump_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
+        x: 134
+        y: 2
+        width: 24
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b598b6c6666a4a70800000000000000
-      internalID: 8811968212510479797
+      spriteID: eeffd98fab50fa130800000000000000
+      internalID: 3580086529375993838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_5
+      name: Jump_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
+        x: 166
+        y: 6
+        width: 24
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eeb4be6128568b710800000000000000
-      internalID: 1709227667991776238
+      spriteID: 6cc0e5596ebf06230800000000000000
+      internalID: 3630178267427638470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_6
+      name: Jump_6
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
+        x: 194
+        y: 10
+        width: 28
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9b9b3abbd833c530800000000000000
-      internalID: 3874002620842220442
+      spriteID: 9ed73f24957102630800000000000000
+      internalID: 3900142949445631465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_7
+      name: Jump_7
       rect:
         serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
+        x: 226
+        y: 5
+        width: 28
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f893ac1864eb7e30800000000000000
-      internalID: 4502443388295158002
+      spriteID: 76e5e2cc05a1f0730800000000000000
+      internalID: 3967418731061993063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_8
+      name: Jump_8
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 64
-        height: 64
+        x: 258
+        y: 2
+        width: 28
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f96eec09268b7610800000000000000
-      internalID: 1620036001838557687
+      spriteID: 76f69730de4f83e20800000000000000
+      internalID: 3330681223243198311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_9
+      name: Jump_9
       rect:
         serializedVersion: 2
-        x: 576
+        x: 290
         y: 0
-        width: 64
-        height: 64
+        width: 28
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b45ede203e0726740800000000000000
-      internalID: 5143797844719560011
+      spriteID: 00e7d8c0eb10f21b0800000000000000
+      internalID: -5679318689324892672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_10
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced32887e72c4bc70800000000000000
+      internalID: 8986021004954451436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_11
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 0
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5289d3dd0937a9390800000000000000
+      internalID: -7810803537696417755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_12
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17284b0c49997460800000000000000
+      internalID: 7239986427860625178
       vertices: []
       indices: 
       edges: []
@@ -376,7 +451,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3f617706a8ef33748af1395dda89aeed
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -384,20 +459,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      GoldenRetriver_0: 1434499679988751145
-      GoldenRetriver_1: -8913565657545568405
-      GoldenRetriver_2: -4059337005736962738
-      GoldenRetriver_3: -2772389786410074621
-      GoldenRetriver_4: 8811968212510479797
-      GoldenRetriver_5: 1709227667991776238
-      GoldenRetriver_6: 3874002620842220442
-      GoldenRetriver_7: 4502443388295158002
-      GoldenRetriver_8: 1620036001838557687
-      GoldenRetriver_9: 5143797844719560011
+      Jump_0: 7460046300004610927
+      Jump_1: 7034338576483803127
+      Jump_10: 8986021004954451436
+      Jump_11: -7810803537696417755
+      Jump_12: 7239986427860625178
+      Jump_2: 6054277451648750542
+      Jump_3: 6937500446539429301
+      Jump_4: 3580086529375993838
+      Jump_5: 3630178267427638470
+      Jump_6: 3900142949445631465
+      Jump_7: 3967418731061993063
+      Jump_8: 3330681223243198311
+      Jump_9: -5679318689324892672
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,31 +1,19 @@
 fileFormatVersion: 2
-guid: 258c038166eeae34a9476bccad7b189b
+guid: 6f34cdeddd6a6f84f91d5fe53b4ecdad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3542798359188270528
-    second: FreeBunny_0
+      213: 3353505788049594590
+    second: HairBrush_0
   - first:
-      213: -7107209632137750323
-    second: FreeBunny_1
+      213: -860969927182583981
+    second: HairBrush_1
   - first:
-      213: 324910993005036015
-    second: FreeBunny_2
+      213: -5800818519502493761
+    second: HairBrush_2
   - first:
-      213: -4629599381350119138
-    second: FreeBunny_3
-  - first:
-      213: 1803791370924293709
-    second: FreeBunny_4
-  - first:
-      213: 7081361433131117322
-    second: FreeBunny_5
-  - first:
-      213: -4847856924977860235
-    second: FreeBunny_6
-  - first:
-      213: 8732837852933274912
-    second: FreeBunny_7
+      213: 6291146960619989532
+    second: HairBrush_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -147,12 +135,56 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FreeBunny_0
+      name: HairBrush_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed899e02fbb0a8e20800000000000000
+      internalID: 3353505788049594590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HairBrush_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357fcffa9683d04f0800000000000000
+      internalID: -860969927182583981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HairBrush_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -162,19 +194,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0421fb1b9a375dec0800000000000000
-      internalID: -3542798359188270528
+      spriteID: fb7eb826a4a5f7fa0800000000000000
+      internalID: -5800818519502493761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FreeBunny_1
+      name: HairBrush_3
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 0
-        width: 32
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -184,140 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc8d134ce7e1e5d90800000000000000
-      internalID: -7107209632137750323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FreeBunny_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fe14fa1a3d0528400800000000000000
-      internalID: 324910993005036015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FreeBunny_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e19024e24eb50cfb0800000000000000
-      internalID: -4629599381350119138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FreeBunny_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d4e7bd8e1ba580910800000000000000
-      internalID: 1803791370924293709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FreeBunny_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0b6eeb64bc064260800000000000000
-      internalID: 7081361433131117322
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FreeBunny_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 571f6c0dfc3f8bcb0800000000000000
-      internalID: -4847856924977860235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FreeBunny_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 02d3c2932c5413970800000000000000
-      internalID: 8732837852933274912
+      spriteID: c1a688924d4ae4750800000000000000
+      internalID: 6291146960619989532
       vertices: []
       indices: 
       edges: []
@@ -326,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4813fe63c2697264790879eb57535c72
+    spriteID: 240ecae1a96a38542bc0b4e21d50a233
     internalID: 0
     vertices: []
     indices: 
@@ -336,16 +236,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":16.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      FreeBunny_0: -3542798359188270528
-      FreeBunny_1: -7107209632137750323
-      FreeBunny_2: 324910993005036015
-      FreeBunny_3: -4629599381350119138
-      FreeBunny_4: 1803791370924293709
-      FreeBunny_5: 7081361433131117322
-      FreeBunny_6: -4847856924977860235
-      FreeBunny_7: 8732837852933274912
+      HairBrush_0: 3353505788049594590
+      HairBrush_1: -860969927182583981
+      HairBrush_2: -5800818519502493761
+      HairBrush_3: 6291146960619989532
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

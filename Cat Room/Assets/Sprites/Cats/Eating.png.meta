@@ -1,37 +1,52 @@
 fileFormatVersion: 2
-guid: 814583653218552489bc25ce187e33df
+guid: c98c6906ce3669147bc21d44e4efed75
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1434499679988751145
-    second: GoldenRetriver_0
+      213: 3737642103207581742
+    second: Eating_0
   - first:
-      213: -8913565657545568405
-    second: GoldenRetriver_1
+      213: -5418980842440828331
+    second: Eating_1
   - first:
-      213: -4059337005736962738
-    second: GoldenRetriver_2
+      213: 8816220868546045450
+    second: Eating_2
   - first:
-      213: -2772389786410074621
-    second: GoldenRetriver_3
+      213: 3938157403913222600
+    second: Eating_3
   - first:
-      213: 8811968212510479797
-    second: GoldenRetriver_4
+      213: -2153759689607480041
+    second: Eating_4
   - first:
-      213: 1709227667991776238
-    second: GoldenRetriver_5
+      213: -3120081095793012915
+    second: Eating_5
   - first:
-      213: 3874002620842220442
-    second: GoldenRetriver_6
+      213: -6975283085200871322
+    second: Eating_6
   - first:
-      213: 4502443388295158002
-    second: GoldenRetriver_7
+      213: 5112071971685897962
+    second: Eating_7
   - first:
-      213: 1620036001838557687
-    second: GoldenRetriver_8
+      213: 2772522030335866133
+    second: Eating_8
   - first:
-      213: 5143797844719560011
-    second: GoldenRetriver_9
+      213: 6171086883858935277
+    second: Eating_9
+  - first:
+      213: -4454700615808036785
+    second: Eating_10
+  - first:
+      213: 4545170202014490789
+    second: Eating_11
+  - first:
+      213: 8401878325783974900
+    second: Eating_12
+  - first:
+      213: -5180099057999677442
+    second: Eating_13
+  - first:
+      213: 5457626365735980952
+    second: Eating_14
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +93,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -153,13 +168,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GoldenRetriver_0
+      name: Eating_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +183,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92b1420dbdd58e310800000000000000
-      internalID: 1434499679988751145
+      spriteID: e285b33a0b5ced330800000000000000
+      internalID: 3737642103207581742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_1
+      name: Eating_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55adaa182a9ebc4b0800000000000000
+      internalID: -5418980842440828331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eating_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +227,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6f00e3b247ac4480800000000000000
-      internalID: -8913565657545568405
+      spriteID: a06a21b6b22895a70800000000000000
+      internalID: 8816220868546045450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_2
+      name: Eating_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c972d92b4527a630800000000000000
+      internalID: 3938157403913222600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eating_4
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -212,20 +271,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e45537520865aa7c0800000000000000
-      internalID: -4059337005736962738
+      spriteID: 71df36139fe4c12e0800000000000000
+      internalID: -2153759689607480041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_3
+      name: Eating_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f88d636ce33b4d0800000000000000
+      internalID: -3120081095793012915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eating_6
       rect:
         serializedVersion: 2
         x: 192
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,20 +315,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30e3b129d2e7689d0800000000000000
-      internalID: -2772389786410074621
+      spriteID: 660bfca9df0d23f90800000000000000
+      internalID: -6975283085200871322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_4
+      name: Eating_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae691929f5ab1f640800000000000000
+      internalID: 5112071971685897962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eating_8
       rect:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,20 +359,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b598b6c6666a4a70800000000000000
-      internalID: 8811968212510479797
+      spriteID: 5153d1ed81af97620800000000000000
+      internalID: 2772522030335866133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_5
+      name: Eating_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedeb7633da14a550800000000000000
+      internalID: 6171086883858935277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eating_10
       rect:
         serializedVersion: 2
         x: 320
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,20 +403,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eeb4be6128568b710800000000000000
-      internalID: 1709227667991776238
+      spriteID: f405c065469bd22c0800000000000000
+      internalID: -4454700615808036785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_6
+      name: Eating_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0a3c6a730b31f30800000000000000
+      internalID: 4545170202014490789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eating_12
       rect:
         serializedVersion: 2
         x: 384
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,20 +447,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9b9b3abbd833c530800000000000000
-      internalID: 3874002620842220442
+      spriteID: 4f3586e72d7799470800000000000000
+      internalID: 8401878325783974900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GoldenRetriver_7
+      name: Eating_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7f7922a579c18b0800000000000000
+      internalID: -5180099057999677442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eating_14
       rect:
         serializedVersion: 2
         x: 448
         y: 0
-        width: 64
-        height: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -322,52 +491,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f893ac1864eb7e30800000000000000
-      internalID: 4502443388295158002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GoldenRetriver_8
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f96eec09268b7610800000000000000
-      internalID: 1620036001838557687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GoldenRetriver_9
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b45ede203e0726740800000000000000
-      internalID: 5143797844719560011
+      spriteID: 89fcf7e83426dbb40800000000000000
+      internalID: 5457626365735980952
       vertices: []
       indices: 
       edges: []
@@ -376,7 +501,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3f617706a8ef33748af1395dda89aeed
+    spriteID: 23f15b053f6c5034980f78e241ffa61c
     internalID: 0
     vertices: []
     indices: 
@@ -386,18 +511,23 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      GoldenRetriver_0: 1434499679988751145
-      GoldenRetriver_1: -8913565657545568405
-      GoldenRetriver_2: -4059337005736962738
-      GoldenRetriver_3: -2772389786410074621
-      GoldenRetriver_4: 8811968212510479797
-      GoldenRetriver_5: 1709227667991776238
-      GoldenRetriver_6: 3874002620842220442
-      GoldenRetriver_7: 4502443388295158002
-      GoldenRetriver_8: 1620036001838557687
-      GoldenRetriver_9: 5143797844719560011
+      Eating_0: 3737642103207581742
+      Eating_1: -5418980842440828331
+      Eating_10: -4454700615808036785
+      Eating_11: 4545170202014490789
+      Eating_12: 8401878325783974900
+      Eating_13: -5180099057999677442
+      Eating_14: 5457626365735980952
+      Eating_2: 8816220868546045450
+      Eating_3: 3938157403913222600
+      Eating_4: -2153759689607480041
+      Eating_5: -3120081095793012915
+      Eating_6: -6975283085200871322
+      Eating_7: 5112071971685897962
+      Eating_8: 2772522030335866133
+      Eating_9: 6171086883858935277
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
