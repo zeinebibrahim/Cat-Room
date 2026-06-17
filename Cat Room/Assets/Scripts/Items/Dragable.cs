@@ -1,16 +1,35 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class Draggable : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private bool isDragging = false;
+    private Vector3 offset;
+    private float dragDepth = 10f;
+
+    private void OnMouseDown()
     {
-        
+        isDragging = true;
+
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = dragDepth;
+
+        Vector3 worldPos = Camera.main.ScreenToWorldPoint(mousePos);
+        offset = transform.position - worldPos;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnMouseUp()
     {
-        
+        isDragging = false;
+    }
+
+    private void Update()
+    {
+        if (!isDragging) return;
+
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = dragDepth;
+
+        Vector3 worldPos = Camera.main.ScreenToWorldPoint(mousePos) + offset;
+        transform.position = worldPos;
     }
 }

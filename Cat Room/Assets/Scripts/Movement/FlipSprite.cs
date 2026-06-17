@@ -2,15 +2,29 @@ using UnityEngine;
 
 public class FlipSprite : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private SpriteRenderer spriteRenderer;
+    private Rigidbody2D rb;
+
+    [SerializeField] private float flipThreshold = 0.1f;
+    [SerializeField] private bool autoDetect = true;
+
+    private void Awake()
     {
-        
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (autoDetect && rb != null)
+            SetDirection(rb.linearVelocity);
+    }
+
+    public void SetDirection(Vector2 moveDir)
+    {
+        if (moveDir.x > flipThreshold)
+            spriteRenderer.flipX = false;
+        else if (moveDir.x < -flipThreshold)
+            spriteRenderer.flipX = true;
     }
 }
