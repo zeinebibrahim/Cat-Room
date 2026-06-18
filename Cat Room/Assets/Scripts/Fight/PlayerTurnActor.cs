@@ -4,14 +4,20 @@ public class PlayerTurnActor : MonoBehaviour, ITurnActor
 {
     [SerializeField] private PlayerCombatant player;
     [SerializeField] private EnemyCombatant enemy;
-    [SerializeField] private ScriptableObject attackObject;
 
-    private IAttack attack;
+    [Header("Attacks")]
+    [SerializeField] private ScriptableObject scratchAttackObject;
+    [SerializeField] private ScriptableObject biteAttackObject;
+
+    private IAttack scratchAttack;
+    private IAttack biteAttack;
+
     private bool isMyTurn = false;
 
     private void Awake()
     {
-        attack = attackObject as IAttack;
+        scratchAttack = scratchAttackObject as IAttack;
+        biteAttack = biteAttackObject as IAttack;
     }
 
     public void TakeTurn()
@@ -20,12 +26,21 @@ public class PlayerTurnActor : MonoBehaviour, ITurnActor
         CombatEvents.OnTurnStarted?.Invoke(player);
     }
 
-    public void OnAttackButtonPressed()
+    public void OnScratchPressed()
     {
         if (!isMyTurn) return;
-        if (attack == null) { Debug.LogError("Attack is null!"); return; }
 
-        player.PerformAttack(attack, enemy);
+        player.PerformAttack(scratchAttack, enemy);
+        isMyTurn = false;
+
+        FindFirstObjectByType<TurnManager>().EndTurn();
+    }
+
+    public void OnBitePressed()
+    {
+        if (!isMyTurn) return;
+
+        player.PerformAttack(biteAttack, enemy);
         isMyTurn = false;
 
         FindFirstObjectByType<TurnManager>().EndTurn();

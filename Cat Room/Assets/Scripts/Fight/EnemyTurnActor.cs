@@ -5,14 +5,20 @@ public class EnemyTurnActor : MonoBehaviour, ITurnActor
 {
     [SerializeField] private EnemyCombatant enemy;
     [SerializeField] private PlayerCombatant player;
-    [SerializeField] private ScriptableObject attackObject;
+
+    [Header("Enemy Attacks")]
+    [SerializeField] private ScriptableObject scratchAttackObject;
+    [SerializeField] private ScriptableObject biteAttackObject;
+
     [SerializeField] private float attackDelay = 1.5f;
 
-    private IAttack attack;
+    private IAttack scratchAttack;
+    private IAttack biteAttack;
 
     private void Awake()
     {
-        attack = attackObject as IAttack;
+        scratchAttack = scratchAttackObject as IAttack;
+        biteAttack = biteAttackObject as IAttack;
     }
 
     public void TakeTurn()
@@ -25,7 +31,9 @@ public class EnemyTurnActor : MonoBehaviour, ITurnActor
     {
         yield return new WaitForSeconds(attackDelay);
 
-        enemy.PerformAttack(attack, player);
+        IAttack chosenAttack = (Random.value < 0.5f) ? scratchAttack : biteAttack;
+
+        enemy.PerformAttack(chosenAttack, player);
 
         FindFirstObjectByType<TurnManager>().EndTurn();
     }
