@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Run : MonoBehaviour
 {
-    [SerializeField] float moveSpeed;
+    /*[SerializeField] float moveSpeed;
     Rigidbody2D rigidbody;
 
     private void Start()
@@ -12,5 +12,5 @@ public class Run : MonoBehaviour
     public void Move(Vector2 pDirection)
     {
         rigidbody.linearVelocity = pDirection * moveSpeed;
-    }
+    }*/
 }
