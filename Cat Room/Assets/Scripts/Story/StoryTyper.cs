@@ -7,7 +7,7 @@ public class StoryTyper : MonoBehaviour
 {
     public TextMeshProUGUI storyText;
     public float typeSpeed = 0.03f;
-    public float delayBetweenSentences = 3f;
+    public float delayBetweenSentences = 2.5f;
     public string[] introSentences;
     public bool playIntroOnStart = true;
 
@@ -48,7 +48,7 @@ public class StoryTyper : MonoBehaviour
 
         if (switchSceneAfter)
         {
-            yield return new WaitForSeconds(5f);
+            yield return new WaitForSeconds(2f);
             SceneManager.LoadScene(sceneName);
         }
     }
