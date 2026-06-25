@@ -23,13 +23,13 @@ public class PopupUI : MonoBehaviour
         StartCoroutine(FadeIn());
     }
 
-    IEnumerator FadeIn()
+    IEnumerator FadeIn() //Een fade in animation voor de pop up
     {
         for (float t = 0; t < fadeTime; t += Time.deltaTime)
         {
             canvasGroup.alpha = t / fadeTime;
             yield return null;
         }
-        canvasGroup.alpha = 1;
+        canvasGroup.alpha = 1; 
     }
 }

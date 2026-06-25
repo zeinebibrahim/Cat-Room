@@ -3,7 +3,7 @@ using UnityEngine;
 public class StayInsideArea : MonoBehaviour
 {
     [SerializeField] private Transform areaCenter;
-    [SerializeField] private Vector2 areaSize = new Vector2(5f, 5f);
+    [SerializeField] private Vector2 areaSize = new Vector2(5f, 5f); //item kan niet verder worden gedragged dan de x en y
 
     private void LateUpdate()
     {

@@ -6,7 +6,7 @@ public class Draggable : MonoBehaviour
     private Vector3 offset;
     private float dragDepth = 10f;
 
-    private void OnMouseDown()
+    private void OnMouseDown() //Class voor mouse click, je kan object draggen wanneer muis ingehouden blijft
     {
         isDragging = true;
 
@@ -17,7 +17,7 @@ public class Draggable : MonoBehaviour
         offset = transform.position - worldPos;
     }
 
-    private void OnMouseUp()
+    private void OnMouseUp() //Mouse loslaten dus object wordt op de plek gezet waar de muis het laatst was
     {
         isDragging = false;
     }
