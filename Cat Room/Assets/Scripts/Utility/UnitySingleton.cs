@@ -29,7 +29,7 @@ public abstract class UnitySingleton<T> : MonoBehaviour where T : UnitySingleton
             Destroy(gameObject);
         }
 
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
     }
 
     private void OnDestroy()

@@ -7,6 +7,7 @@ public class PlayButton : MonoBehaviour
     [SerializeField] GameObject tutorialCanvas;
     public void PlayGame()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("LevelTwo");
     }
 
