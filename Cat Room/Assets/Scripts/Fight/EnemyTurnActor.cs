@@ -10,6 +10,10 @@ public class EnemyTurnActor : MonoBehaviour, ITurnActor
     [SerializeField] private ScriptableObject scratchAttackObject;
     [SerializeField] private ScriptableObject biteAttackObject;
 
+    [Header("Fade Effects")]
+    [SerializeField] private FadeInOut scratchFade;
+    [SerializeField] private FadeInOut biteFade;
+
     [SerializeField] private float attackDelay = 1.5f;
 
     private IAttack scratchAttack;
@@ -23,7 +27,7 @@ public class EnemyTurnActor : MonoBehaviour, ITurnActor
 
     public void TakeTurn()
     {
-        CombatEvents.OnTurnStarted?.Invoke(enemy);
+        CombatEvents.OnTurnStarted.Invoke(enemy);
         StartCoroutine(EnemyAttackRoutine());
     }
 
@@ -31,7 +35,30 @@ public class EnemyTurnActor : MonoBehaviour, ITurnActor
     {
         yield return new WaitForSeconds(attackDelay);
 
-        IAttack chosenAttack = (Random.value < 0.5f) ? scratchAttack : biteAttack;
+        float randomValue = Random.value;
+        bool useScratch = false;
+
+        if (randomValue < 0.5f)
+        {
+            useScratch = true;
+        }
+
+        IAttack chosenAttack = scratchAttack;
+
+        if (!useScratch)
+        {
+            chosenAttack = biteAttack;
+        }
+
+        if (useScratch && scratchFade != null)
+        {
+            scratchFade.gameObject.SetActive(true);
+        }
+
+        if (!useScratch && biteFade != null)
+        {
+            biteFade.gameObject.SetActive(true);
+        }
 
         enemy.PerformAttack(chosenAttack, player);
 
